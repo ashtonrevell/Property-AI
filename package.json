@@ -1,0 +1,14 @@
+{
+  "name": "property-ai-openai-ready",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Property AI website with OpenAI-backed real estate assistant.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.18.3",
+    "openai": "^4.104.0"
+  }
+}
