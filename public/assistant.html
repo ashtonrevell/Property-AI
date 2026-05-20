@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ask Property AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<div class="bg"></div>
+<header class="nav">
+<a class="logo" href="/"><span>PAI</span>Property<strong>AI</strong></a>
+<nav><a href="/">Home</a><a class="active" href="/assistant.html">Assistant</a><a href="/features.html">Features</a><a href="/legal.html">Legal</a><a class="cta" href="/contact.html">Contact</a></nav>
+</header>
+<main class="page">
+<section class="page-hero"><p class="eyebrow">Ask Property AI</p><h1>Real estate questions, answered clearly.</h1><p>Ask general questions about selling, buying, rentals, inspections, offers and appraisals. Important property decisions should always be verified by a qualified professional.</p></section>
+<section class="assistant-layout">
+<div class="assistant-card">
+<div class="chat-head"><div class="agent-avatar">AI</div><div><strong>Property AI Assistant</strong><small>General real estate information only</small></div></div>
+<div class="quick-prompts"><button data-question="What is my property worth?">Property value</button><button data-question="How do I sell my home in Queensland?">Selling steps</button><button data-question="Should I sell by auction?">Auction</button><button data-question="What should I ask at an open home?">Open home</button><button data-question="Can I get a rental appraisal?">Rental appraisal</button></div>
+<div id="messages" class="messages"><div class="bubble ai">Hi, I’m Property AI. I can answer general real estate questions. For legal, finance, tax or property-specific advice, I’ll recommend speaking with a qualified professional.</div></div>
+<form id="chatForm" class="chat-form"><input id="chatInput" type="text" placeholder="Ask a real estate question..." autocomplete="off" /><button class="btn primary" type="submit">Send</button></form>
+<p class="chat-note">AI responses are general information only and may be inaccurate. Verify important details before relying on them.</p>
+</div>
+<aside class="side-panel"><h2>Assistant settings</h2><ul class="tick-list"><li>Uses the private backend chat endpoint</li><li>Does not display your email in the chat panel</li><li>Redirects human follow-up to the contact page</li><li>Keeps legal, finance, tax and valuation limits clear</li></ul><a class="btn secondary" href="/contact.html">Need a human?</a></aside>
+</section>
+</main>
+<footer>© <span id="year"></span> Property AI · 357 Esplanade, Scarness, Hervey Bay QLD 4655 · <a href="/privacy.html">Privacy</a></footer>
+<script src="/script.js"></script>
+</body>
+</html>
